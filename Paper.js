@@ -1,7 +1,7 @@
 var paperObject;
 class Paper extends PaperClass {
   constructor (x,y){
-    paperObject = Matter.Bodies.circle(x,y,25,options);
+    paperObject = Matter.Bodies.circle(x,y,options);
     var options= {
       isStatic:false,
       restitution:0.3,
